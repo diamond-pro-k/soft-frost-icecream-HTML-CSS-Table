@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&display=swap');
+
+body {
+    background-color: #F3D9DF;
+    font-family: Average Sans, Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+table {
+    text-align: center;
+    margin: 2% auto;
+    width: 40%;
+    box-shadow: 2px 2px 2px gray;
+    margin-bottom: 0px;
+    
+}
+
+td, th{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    padding: 10px;
+    background-color: #FFF;
+}
+.icecreamFlavorsHeader{
+    background-color: #D6DBD6;
+}
+.icecreamFlavorsFooter {
+    background-color: #BFE5E3;
+    height: 25px;
+}
+.left {
+    width: 50%;
+}
+.logo {
+    width: 8%;
+    margin-right: -30%;
+    z-index: 1;
+}
+.company {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ser, .loc, .con {
+  margin-right: 30px;
+  margin-left: 30px;
+ 
+}
+.footer {
+    margin-left: 40%;
+    margin-top: 50px;
+}
+.ser:hover, .loc:hover, .con:hover {
+    cursor: pointer;
+    color: white;
+    transition: 200ms all ease-in;
+}
+
