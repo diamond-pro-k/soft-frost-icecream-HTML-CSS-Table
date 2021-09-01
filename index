@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icecream</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+<table cellspacing="0.5">
+<thead>
+<tr>
+<th colspan="2" class="icecreamFlavorsHeader">
+    <h1>Top Selling Icecream Flavors of the Month 
+        <span class="material-icons">
+        icecream
+        </span>
+    </h1>
+</th>
+</tr>
+
+<tr>
+    <th>
+        <h2>FLAVORS</h2>
+    </th>
+    <th>
+        <h2>UNITS SOLD (PTS)</h2>
+    </th>
+</tr>
+
+
+</thead>
+<tbody>
+<tr>
+    <td class="left">
+        <h2>Vanilla</h2>
+    </td>
+        <td >
+            <h2>101</h2>
+        </td>
+</tr>
+
+<tr>
+    <td class="left">
+        <h2>Strawberry</h2>
+    </td>
+    <td >
+        <h2>78</h2>
+    </td>
+</tr>
+
+<tr>
+    <td class="left">
+        <h2>Chocolate</h2>
+    </td>
+    <td >
+        <h2>39</h2>
+    </td>
+</tr>
+
+<tr>
+    <td class="left">
+        <h2>Neapolitan</h2>
+    </td>
+    <td >
+        <h2>44</h2>
+    </td>
+</tr>
+
+<tr>
+    <td class="left">
+        <h2>Cookies N' Cream</h2>
+    </td>
+    <td >
+        <h2>56</h2>
+    </td>
+</tr>
+<tr>
+    <th colspan="2" class="icecreamFlavorsFooter">
+       <div class="company">
+        <img class="logo" src="soft frost icecream logo.png" alt="soft frost icecream logo"/>
+    
+       <h2 class="companyTitle">soft frost icecream</h2> </div>
+    </th>
+    </tr>
+
+</tbody>
+
+</table>
+
+
+
+  </div>
+  <div class="footer">
+  <h3><span class="ser">Services</span>
+      <span class="loc">Location</span>
+      <span class="con">Contact</span></h3>
+  </div>
+</body>
+</html>
